@@ -1,17 +1,17 @@
 #include<stdio.h>
 
 int main() {
-    int age;
-    printf("Enter age : ");
-    scanf("%d", &age);
+    // int i, j;
+    int n;
+    printf("enter number: ");
+    scanf("%d", &n);
 
-    if (age>18) {
-        printf("adult \n");
-        printf("they can vote \n");
-        printf("they can drive \n");
+    int sum = 0;
+    for(int j=n; j>=1; j--) {
+        sum = sum + j;
+        printf("%d\n", j);
     }
-    else{
-        printf("not adult \n");
-    }
+
+    printf("sum is %d\n", sum);
     return 0;
 }
