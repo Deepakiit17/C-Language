@@ -8,8 +8,13 @@ int main()
     char firstName[] = "Deepak";
     char lastName[] = "Meena";
 
-    printString(firstName);
-    printString(lastName);
+    // printString(firstName);
+    // printString(lastName);
+
+    char str[100];
+    fgets(str, 100, stdin);
+    puts(str);
+    
     return 0;
 }
 
